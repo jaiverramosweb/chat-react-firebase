@@ -3,7 +3,7 @@ import { FiendItem } from "./FiendItem";
 import FiendSearh from "./FiendSearh";
 import { useAuth, useFirestore } from "reactfire";
 import { doc, getDoc, onSnapshot } from "firebase/firestore";
-import { UserRooms } from "@/schemas/fireStore-schema";
+import { UserRooms } from "../../schemas/firestore-schema";
 
 interface Friend {
   uid: string;

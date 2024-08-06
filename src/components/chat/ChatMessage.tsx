@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { useAuth, useFirestore } from "reactfire";
 import Messaje from "@/components/chat/Messaje";
 import { Friend } from "@/store/chat-store";
-import { Message } from "@/schemas/fireStore-schema";
+import { Message } from "../../schemas/firestore-schema";
 import { format } from "timeago.js";
 
 interface Props {
